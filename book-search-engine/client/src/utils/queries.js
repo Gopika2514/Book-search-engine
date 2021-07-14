@@ -1,7 +1,7 @@
-import { gql } from '@apollo/client';
+import gql from 'graphql-tag';
 
 export const GET_ME = gql`
-  # create a GraphQL query to be executed by Apollo Client
+  
   {
     me {
       _id
